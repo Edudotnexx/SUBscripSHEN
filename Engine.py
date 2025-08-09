@@ -7,7 +7,7 @@ import os, re, socket, json, base64, requests
 from urllib.parse import urlparse, urlunparse
 
 # ---------- Settings ----------
-SOURCE_FILE   = "Source.txt"                 # لیست ساب‌لینک‌ها (یک URL در هر خط)
+SOURCE_FILE   = "SUBscripSHEN.json"                 # لیست ساب‌لینک‌ها (یک URL در هر خط)
 OUTPUT_DIR    = "output"                     # پوشهٔ مادرِ نهایی
 OUTPUT_MAIN   = os.path.join(OUTPUT_DIR, "MainConfigs.txt")
 IP_CACHE_FILE = "ip_cache.json"              # کش تشخیص کشور IP
